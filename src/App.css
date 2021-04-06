@@ -1,0 +1,40 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 200px;
+}
+.counter {
+  grid-row: 2/3;
+  justify-self: center;
+  width: 450px;
+  text-align: center;
+  background-color: lavender;
+  padding: 80px;
+  border-radius: 20px;
+}
+.display {
+  grid-column: 2/3;
+  font-size: 40px;
+}
+.buttons {
+  grid-row: 3/4;
+  border-radius: 15px;
+}
+.buttons button {
+  width: 150px;
+  line-height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.disable {
+  color: red;
+}
+
+
